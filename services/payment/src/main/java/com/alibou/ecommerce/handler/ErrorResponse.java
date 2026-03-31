@@ -1,0 +1,9 @@
+package com.naveen.order_management.handler;
+
+import java.util.Map;
+
+public record ErrorResponse(
+    Map<String, String> errors
+) {
+
+}
